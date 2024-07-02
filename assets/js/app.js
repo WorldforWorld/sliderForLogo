@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", () => {
   const settingsImg = {
     count: 70,
-    pathImg: "./assets/img/",
+    pathImg: "../assets/img/",
     nameImg: "img-",
   };
   const swiperImage = document.querySelector(".swiper-image");
@@ -28,7 +28,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   const settingsLogo = {
     count: 5,
-    pathImg: "./assets/logo/",
+    pathImg: "../assets/logo/",
     nameImg: "logo-",
   };
   const swiperLogo = document.querySelector(".swiper-logo");
